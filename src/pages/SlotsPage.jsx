@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAvailableSlots, getSlotHistory, getStats, getUsers, getActivityLogs } from "../api";
+import { getAvailableSlots, getStats, getUsers, getActivityLogs } from "../api";
 import { MapPin, RefreshCw, CheckCircle, XCircle, Search, Clock, Calendar, TrendingUp } from "lucide-react";
 
 

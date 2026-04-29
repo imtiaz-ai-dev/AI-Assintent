@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { LayoutDashboard, Radio, Users, ScrollText, Settings, Calendar, Zap, ShieldCheck } from "lucide-react";
+import { LayoutDashboard, Radio, Users, ScrollText, Settings, Calendar, Zap } from "lucide-react";
 
 const links = [
   { to: "/", icon: LayoutDashboard, label: "Dashboard" },

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getSettings, updateSetting } from "../api";
-import { Save, Clock, Bell, Globe, Shield, CheckCircle, RefreshCw, Mail, MessageSquare, Phone, Smartphone, Key, AlertTriangle, Lock, Database } from "lucide-react";
+import { Save, Clock, Bell, Globe, Shield, CheckCircle, RefreshCw, Mail, MessageSquare, Phone, Smartphone, Key, AlertTriangle, Lock } from "lucide-react";
 
 export default function Settings() {
   const [s, setS] = useState({});
